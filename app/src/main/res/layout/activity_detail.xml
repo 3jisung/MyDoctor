@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="267dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hospital" />
+
+    <TextView
+        android:id="@+id/txt_distance"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_distance" />
+
+    <TextView
+        android:id="@+id/simpleMap"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/type" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/simpleMap" />
+
+    <TextView
+        android:id="@+id/mainNumber"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <TextView
+        android:id="@+id/emergencyNumber"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainNumber" />
+
+    <Button
+        android:id="@+id/btn_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="대표번호 전화하기"
+        app:layout_constraintBottom_toTopOf="@+id/btn_emergency"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn_emergency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="응급실로 전화하기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_main" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="상세 정보"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_vertical"
+        android:text="주소 :"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/label"
+        app:layout_constraintEnd_toStartOf="@+id/txt_distance"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_vertical"
+        android:text="병원 구분 :"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/label2"
+        app:layout_constraintEnd_toStartOf="@+id/type"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical"
+        android:text="간이주소 :"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/label3"
+        app:layout_constraintEnd_toStartOf="@+id/simpleMap"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/label3"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical"
+        android:text="이름 :"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/label4"
+        app:layout_constraintEnd_toStartOf="@+id/name"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/label4"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical"
+        android:text="대표 번호 :"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/label5"
+        app:layout_constraintEnd_toStartOf="@+id/mainNumber"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/label5"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="164dp"
+        android:gravity="center_vertical"
+        android:text="응급실 번호 :"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/emergencyNumber"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

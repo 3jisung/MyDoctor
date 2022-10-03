@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="400dp">
+
+    <CheckBox
+        android:id="@+id/typeN"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="52dp"
+        android:text="치과의원"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/typeV"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="172dp"
+        android:text="지방자치단체"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/typeZ"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="120dp"
+        android:text="응급의료지원"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typeC" />
+
+    <CheckBox
+        android:id="@+id/typeY"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="120dp"
+        android:text="중앙응급의료"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typeB" />
+
+    <CheckBox
+        android:id="@+id/typeW"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="120dp"
+        android:text="기타시설"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typeA" />
+
+    <CheckBox
+        android:id="@+id/typeR"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:text="보건소"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typeA" />
+
+    <CheckBox
+        android:id="@+id/typeT"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:text="119구급대"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typeB" />
+
+    <CheckBox
+        android:id="@+id/typeU"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:text="경찰서"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typeC" />
+
+    <CheckBox
+        android:id="@+id/typeE"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="172dp"
+        android:text="한방병원"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/typeG"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="120dp"
+        android:text="한의원"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typeA" />
+
+    <CheckBox
+        android:id="@+id/typeH"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="120dp"
+        android:text="약국"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typeB" />
+
+    <CheckBox
+        android:id="@+id/typeI"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="120dp"
+        android:text="기타"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typeC" />
+
+    <CheckBox
+        android:id="@+id/typeM"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:text="치과병원"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typeI" />
+
+    <CheckBox
+        android:id="@+id/typeC"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:text="의원"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typeB" />
+
+    <CheckBox
+        android:id="@+id/typeD"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:text="요양병원"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typeC" />
+
+    <CheckBox
+        android:id="@+id/typeA"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="52dp"
+        android:text="종합병원"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/typeB"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:text="병원"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typeA" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="병원 검색 기준 설정"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
